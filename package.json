@@ -1,0 +1,9 @@
+{
+  "name": "simple-starter",
+  "version": "1.0.0",
+  "description": "vue-express",
+  "main": "index.js",
+  "repository": "https://github.com/vxggangxv/vue-express.git",
+  "author": "FrontierJ",
+  "license": "MIT"
+}
