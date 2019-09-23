@@ -1,9 +1,16 @@
 {
-  "name": "simple-starter",
-  "version": "1.0.0",
-  "description": "vue-express",
-  "main": "index.js",
-  "repository": "https://github.com/vxggangxv/vue-express.git",
-  "author": "FrontierJ",
-  "license": "MIT"
+    "name": "simple-starter",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "cd be && yarn start",
+        "serve": "cd fe && yarn serve",
+        "build": "cd fe && yarn build",
+        "start": "cd fe && yarn serve && cd ../be && yarn start"
+    },
+    "description": "vue-express",
+    "main": "index.js",
+    "repository": "https://github.com/vxggangxv/vue-express.git",
+    "author": "FrontierJ",
+    "license": "MIT"
 }
